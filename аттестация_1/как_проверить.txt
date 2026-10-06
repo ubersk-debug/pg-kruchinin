@@ -1,0 +1,24 @@
+Кручинин С.В.
+Промежуточная аттестация №1 — что открывать при проверке
+
+0) Работа
+   Промежуточная аттестация №1 КручининС.В..docx
+
+1) База
+   Папка 1_baza
+   biblioteka.tar — Restore в pgAdmin (как dvdrental).
+   biblioteka.sql — тот же дамп текстом.
+   Таблицы: chitatel, kniga, vydacha.
+   Связи: выдача ссылается на читателя и книгу (FK).
+   20 читателей, 107 книг, 96 выдач.
+
+2) VIEW
+   2_view / v_priznaki.sql  (в tar/sql VIEW уже есть)
+   SELECT * FROM v_priznaki_prosrochki;
+   96 строк.
+
+3) Выгрузка
+   3_vygruzka / priznaki.csv и priznaki.xlsx
+
+4) Графики пункта 8
+   папка 4_grafiki
